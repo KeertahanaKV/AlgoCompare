@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# production
+dist/
+build/
+
+# misc
+.env
+.DS_Store
+Thumbs.db
+*.log
+
+# VSCode
+.vscode/

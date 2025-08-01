@@ -1,0 +1,57 @@
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #374151;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6B7280;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}
+
+/* Custom focus styles */
+button:focus {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+}
+
+/* Animation classes */
+.animate-pulse-gentle {
+  animation: pulse-gentle 2s ease-in-out infinite;
+}
+
+@keyframes pulse-gentle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Code syntax highlighting */
+.code-keyword {
+  color: #C792EA;
+}
+
+.code-string {
+  color: #C3E88D;
+}
+
+.code-number {
+  color: #F78C6C;
+}
+
+.code-comment {
+  color: #546E7A;
+  font-style: italic;
+}
